@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(32, 32, 32);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 140px; /* Ajusta el ancho de la imagen */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto;
+  }
+  
+  .navbar {
+    width: 97%;
+    max-width: 9200px;
+    background-color: #0073e6;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para la lista de navegación */
+  ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none; /* Elimina los puntos de las listas */
+  }
+  
+  /* Estilo para los elementos de la lista */
+  li {
+    padding: 15px 0;
+  }
+  
+  /* Estilo para los enlaces */
+  a {
+    color: #fff; /* Texto en blanco */
+    padding: 10px 15px;
+    text-decoration: none; /* Sin subrayado */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  .contenedor {
+    padding: 0;
+    margin: 50px auto 0;
+    width: 100%;
+    max-width: 960px;
+  }
+  
+  .contenido {
+    color: white;
+  }
+
+  .footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+  }
+  .descarga {
+    border: #0073e6;
+    background-color: #0073e6;
+    padding: 15px; 
+    border-radius: 8px; 
+    margin: 20px 0;
+}
+
+.descarga p {
+    margin: 10px 0; 
+}
+
+.descarga a {
+    color: white; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
